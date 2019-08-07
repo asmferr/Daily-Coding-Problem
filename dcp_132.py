@@ -36,6 +36,6 @@ class HitCounter():
 		return self.hits_list[start_pos:end_pos]
 			
 	
-Follow-up:
+# Follow-up:
 	
 	
