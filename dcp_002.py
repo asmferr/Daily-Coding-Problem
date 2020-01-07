@@ -15,10 +15,9 @@ def product_except_i(list_numbers):
 	n = len(list_numbers)
 
 	# Allocate memory for temporary list left[] and right[] 
-
 	# Left most element of left list is always 1 
 	left = [1] + [0] * (n -1)
-	# Rightmost most element of right list is always 1 
+	# Right most element of right list is always 1 
 	right = [0] * (n -1) + [1]
 
 	# Allocate memory for the product list 
