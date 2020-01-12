@@ -12,7 +12,7 @@ Follow-up: what if you can’t use division?
 
 '''
 Time complexity: O(n) + O(n) = O(n) because we are iterating over the list two times
-Space complexity: O(n) because we are creating a new list 
+Space complexity: O(n) used by the new list 
 '''
 def product_except_i(list_numbers):
     	# neutral element of multiplication
@@ -34,7 +34,7 @@ def product_except_i(list_numbers):
 
 '''
 Time complexity: O(n-1) + O(n-1) + O(n) = O(n) because we are iterating over the list three times
-Space complexity: O(n) because we are creating a new list 
+Space complexity: O(n) used up by the two intermediate arrays
 '''
 def product_except_i(list_numbers):
 
